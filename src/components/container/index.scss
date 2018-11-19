@@ -1,0 +1,34 @@
+.container {
+    z-index: 10;
+    position: relative;
+    margin: 0 !important;
+    padding-right: 150px !important;
+    left: 50%;
+    transform: translate(-50%);
+}
+.content {
+    position: relative;
+    background: #ffffff;
+    max-width: 800px;
+    margin-top: -150px;
+    padding: 64px;
+
+    .overline{
+        letter-spacing: 0.3em;
+        margin: 16px;
+        display: inline-block;
+    }
+    h2 {
+        font-family: 'EB Garamond';
+    }
+    a {
+        color: #D59FA0;
+        text-decoration: underline;
+    }
+    hr {
+        margin-top: 64px;
+        height: 4px;
+        width: 80px;
+        background: #ccc;
+    }
+}

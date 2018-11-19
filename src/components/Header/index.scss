@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    background: white;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+
+    // align
+    ul {
+        list-style: none;
+
+        li {
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            background: #081340;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+
+            svg {
+                width: 16px;
+                fill: white;
+            }
+
+            &:hover {
+                background: #d59fa0;
+            }
+        }
+    }
+
+    span {
+        font-size: 0.8em;
+        position: relative;
+        bottom: -180px;
+        letter-spacing: 0.5em;
+        text-transform: uppercase;
+        transform: rotate(-90deg);
+        white-space: nowrap;
+    }
+}

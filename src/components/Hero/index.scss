@@ -1,0 +1,50 @@
+.hero {
+    position: relative;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #6c63ff;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-content {
+        z-index: 2;
+        position: relative;
+
+        h1 {
+            font-family: 'EB Garamond';
+            color: #fff;
+            max-width: 12em;
+            margin-bottom: 32px;
+        }
+        button {
+            font-weight: 900;
+            background: transparent;
+            border: 7px solid white;
+            width: 240px;
+            box-shadow: 4px 4px 0 #fff;
+            &:hover {
+                background: white;
+                border-color: #fff;
+                color: #6c63ff;
+                box-shadow: 0px 0px 0 #fff;
+            }
+        }
+    }
+
+    &-image {
+        z-index: 1;
+        position: absolute;
+        mix-blend-mode: multiply;
+    }
+
+    img {
+        width: 100%;
+    }
+    .logo img{
+        width: 100px;
+    }
+}
