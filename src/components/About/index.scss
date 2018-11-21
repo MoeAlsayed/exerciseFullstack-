@@ -1,0 +1,48 @@
+.about-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+
+    .about-section {
+        background-image: url('/aboutbg.png');
+        background-size: cover;
+        padding-bottom: 12.5rem;
+        background-repeat: no-repeat;
+        margin-top: -80px;
+        height: 600px;
+        padding: 0;
+        padding-left: 25%;
+        padding-right: 25%;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            letter-spacing: 0.3em;
+            font-size: 0.8em;
+        }
+
+        p {
+            display: flex;
+            flex-wrap: wrap;
+            color: #fff;
+            font-size: 1.5em;
+            font-family: 'EB Garamond';
+            margin: 32% auto;
+        }
+
+        a {
+            color: #fff;
+        }
+
+    }
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+}

@@ -1,34 +1,40 @@
 .container {
     z-index: 10;
     position: relative;
+    // I'm sorry :'(
     margin: 0 !important;
     padding-right: 150px !important;
     left: 50%;
-    transform: translate(-50%);
-}
-.content {
-    position: relative;
-    background: #ffffff;
-    max-width: 800px;
-    margin-top: -150px;
-    padding: 64px;
-
-    .overline{
+    transform: translateX(-50%);
+  
+    .content {
+      position: relative;
+      background: #ffffff;
+      margin: 0 auto;
+      margin-top: -150px;
+      padding: 64px;
+  
+      .overline {
         letter-spacing: 0.3em;
-        margin: 16px;
+        margin-bottom: 16px;
         display: inline-block;
-    }
-    h2 {
+      }
+  
+      h2 {
         font-family: 'EB Garamond';
-    }
-    a {
+      }
+  
+      a {
         color: #D59FA0;
         text-decoration: underline;
-    }
-    hr {
+      }
+  
+      hr {
         margin-top: 64px;
         height: 4px;
         width: 80px;
         background: #ccc;
+      }
     }
-}
+  }
+  

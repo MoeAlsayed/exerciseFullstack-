@@ -5,46 +5,73 @@
     margin-left: 20px;
     background: #6c63ff;
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
+  
     &-content {
-        z-index: 2;
-        position: relative;
-
-        h1 {
-            font-family: 'EB Garamond';
-            color: #fff;
-            max-width: 12em;
-            margin-bottom: 32px;
-        }
-        button {
-            font-weight: 900;
-            background: transparent;
-            border: 7px solid white;
-            width: 240px;
-            box-shadow: 4px 4px 0 #fff;
-            &:hover {
-                background: white;
-                border-color: #fff;
-                color: #6c63ff;
-                box-shadow: 0px 0px 0 #fff;
-            }
-        }
+      z-index: 2;
+      position: relative;
+      
+      h1 {
+        font-family: 'EB Garamond';
+        color: #fff;
+        max-width: 12em;
+        margin-bottom: 32px;
+      }
     }
-
+  
     &-image {
-        z-index: 1;
-        position: absolute;
-        mix-blend-mode: multiply;
-    }
-
-    img {
+      z-index: 1;
+      position: absolute;
+      mix-blend-mode: multiply;
+  
+      img {
         width: 100%;
+      }
     }
-    .logo img{
-        width: 100px;
+  
+    .logo img {
+      width: 100px;
+      margin-bottom: 32px;
     }
-}
+  }
+  
+  button.outline {
+    font-weight: 900;
+    background: transparent;
+    border: 4px solid white;
+    border-radius: 0;
+    width: 240px;
+    box-shadow: 4px 4px 0 #fff;
+  
+    &:hover {
+      background: white;
+      border-color: white;
+      color: #6c63ff;
+      box-shadow: 0px 0px 0 #fff;
+    }
+  
+    &.inverted {
+      color: #081340;
+      border: 4px solid #081340;
+      box-shadow: 4px 4px 0 #081340;
+  
+      &:hover {
+        color: #fff;
+        background: #081340;
+        border-color: #081340;
+        box-shadow: 0px 0px 0 #000;
+      }
+    }
+  
+    &.thin {
+      border: 2px solid #081340;
+      box-shadow: 2px 2px 0 #081340;
+    }
+  
+    &.small {
+      font-size: 14px;
+    }
+  }
+  
