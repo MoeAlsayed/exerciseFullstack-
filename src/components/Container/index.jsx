@@ -8,7 +8,7 @@ const Container = props => {
       <div className="content">
         <span className="overline">For who and why?</span>
 
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta quo sunt, quos aperiam mollitia sint ab pariatur eum adipisci? This is created by <a href="">Simon Halimonov</a>.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta quo sunt, quos aperiam mollitia sint ab pariatur eum adipisci? This is created by <a href="">Mohamad Alsayed</a>.</h2>
         <hr/>
         {props.children}
       </div>
